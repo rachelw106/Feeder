@@ -11,9 +11,7 @@ public class Feeder {
      * Simulates one day with numBirds birds or possibly a bear at the bird
      * feeder, as described in part (a) Precondition: numBirds > 0
      */
-    public void simulateOneDay(int numBirds)
-    {
-    }
+    public void simulateOneDay(int numBirds) {}
 
     /**
      * Returns the number of days birds or a bear found food to eat at the
