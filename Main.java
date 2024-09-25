@@ -10,6 +10,7 @@ public class Main
         Feeder g = new Feeder(500);
         System.out.println(g.getCurrentFood());
         System.out.println(Math.random());
+        
         double random = (int) (Math.random() * 40 + 10);
         System.out.println(random);
         System.out.println(Math.random() < 0.05);
