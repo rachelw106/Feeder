@@ -10,7 +10,7 @@ public class Main
         Feeder g = new Feeder(500);
         System.out.println(g.getCurrentFood());
         System.out.println(Math.random());
-        
+
         double random = (int) (Math.random() * 40 + 10);
         System.out.println(random);
         System.out.println(Math.random() < 0.05);
@@ -25,7 +25,12 @@ public class Main
         i.simulateOneDay(5);
         System.out.println(i);
 
-        Feeder j = new Feeder(250);
-        System.out.println(j.simulateManyDays(5, 5));
+        Feeder j = new Feeder(2400);
+        System.out.println(j.simulateManyDays(10, 4));
+        Feeder jj = new Feeder(250);
+        System.out.println(jj.simulateManyDays(10, 5));
+
+        Feeder k = new Feeder(0);
+        System.out.println(k.simulateManyDays(5, 10));
     }
 }
